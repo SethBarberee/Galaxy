@@ -96,12 +96,9 @@
 		letter-spacing: .5px;
 		line-height: 50px;
 		position: absolute;
-		top: 0px;
-		right: 0px;
-		bottom: 0px;
-		left: 0px;
-		margin: auto;
-		text-align: center;
+		right: 34px;
+		bottom: 20px;
+		text-align: right;
 	}
 	.sidebar {
 		/* SIDEBAR */
