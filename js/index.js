@@ -30,14 +30,14 @@ function changeBg() {
     styles.color2 = '#4CD4B0';
     styles.message = 'Afternoon';
   } else if (n >= 0 && n <= 11) {
-    styles.picture = "url('background/background02.png')";
-    styles.color1 = '#00587A';
-    styles.color2 = '#F0B799';
-    styles.message = 'Morning';
-  } else if (n >= 18 && n <= 24) {
     styles.picture = "url('background/background03.png')";
     styles.color1 = '#1C9987';
     styles.color2 = '#CCCCCC';
+    styles.message = 'Morning';
+  } else if (n >= 18 && n <= 24) {
+    styles.picture = "url('background/background02.png')";
+    styles.color1 = '#00587A';
+    styles.color2 = '#F0B799';
     styles.message = 'Night';
   }
   document.querySelector('#container').style.background = styles.picture;
